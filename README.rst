@@ -55,7 +55,7 @@ rooms, and mailing lists is expected to follow the `PyPA Code of Conduct`_.
 License
 -------
 
-Distributed under the terms of the `MIT`_ license, Pytest-Cookies is free and open source software
+Distributed under the terms of the `MIT`_ license, Tapioca-Toggl is free and open source software
 
 .. _`MIT`: http://opensource.org/licenses/MIT
 .. _`Toggl API v8`: https://github.com/toggl/toggl_api_docs
