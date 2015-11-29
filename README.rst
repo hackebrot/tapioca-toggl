@@ -19,6 +19,21 @@ Installation
 .. _`pip`: https://pypi.python.org/pypi/pip/
 .. _`PyPI`: https://pypi.python.org/pypi
 
+Usage
+-----
+
+Create a new API instance and send requests as follows:
+
+.. code-block:: python
+
+    from tapioca_toggl import Toggl
+
+    api = Toggl(access_token='{your-access-token}')
+
+    response = api.me_with_related_data().get()
+    me = response.data()
+
+
 Code of Conduct
 ---------------
 
