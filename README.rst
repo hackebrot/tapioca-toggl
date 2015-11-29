@@ -26,3 +26,10 @@ Everyone interacting in the Tapioca-Toggl project's codebases, issue trackers, c
 rooms, and mailing lists is expected to follow the `PyPA Code of Conduct`_.
 
 .. _`PyPA Code of Conduct`: https://www.pypa.io/en/latest/code-of-conduct/
+
+License
+-------
+
+Distributed under the terms of the `MIT`_ license, Pytest-Cookies is free and open source software
+
+.. _`MIT`: http://opensource.org/licenses/MIT
