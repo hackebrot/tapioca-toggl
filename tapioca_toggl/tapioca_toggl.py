@@ -23,10 +23,7 @@ class TogglClientAdapter(JSONAdapterMixin, TapiocaAdapter):
         access_token = api_params.get('access_token')
 
         if access_token:
-            params['auth'] = HTTPBasicAuth(
-                api_params.get('access_token'),
-                'api_token'
-            )
+            params['auth'] = HTTPBasicAuth(access_token, 'api_token')
         else:
             params['auth'] = HTTPBasicAuth(
                 api_params.get('user'),
