@@ -33,6 +33,16 @@ Create a new API instance and send requests as follows:
     response = api.me_with_related_data().get()
     me = response.data()
 
+Documentation
+-------------
+
+For a list of all of the available endpoints, please consult `resource_mapping.py`_.
+
+You can find more information on Tapioca at the `Tapioca-Wrapper docs`_.
+
+.. _`resource_mapping.py`: https://github.com/hackebrot/tapioca-toggl/blob/master/tapioca_toggl/resource_mapping.py
+.. _`Tapioca-Wrapper docs`: http://tapioca-wrapper.readthedocs.org/en/latest/quickstart/
+
 
 Code of Conduct
 ---------------
