@@ -8,3 +8,13 @@ Tapioca-Toggl
    :target: https://gitter.im/hackebrot/tapioca-toggl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
 Python wrapper for Toggl API v8
+
+Installation
+------------
+
+**tapioca-toggl** is available for download from `PyPI`_ via `pip`_::
+
+    $ pip install tapioca-toggl
+
+.. _`pip`: https://pypi.python.org/pypi/pip/
+.. _`PyPI`: https://pypi.python.org/pypi
