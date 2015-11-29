@@ -7,7 +7,7 @@ Tapioca-Toggl
    :alt: Join the chat at https://gitter.im/hackebrot/tapioca-toggl
    :target: https://gitter.im/hackebrot/tapioca-toggl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
 
-Python wrapper for Toggl API v8
+Python wrapper for `Toggl API v8`_
 
 Installation
 ------------
@@ -33,3 +33,4 @@ License
 Distributed under the terms of the `MIT`_ license, Pytest-Cookies is free and open source software
 
 .. _`MIT`: http://opensource.org/licenses/MIT
+.. _`Toggl API v8`: https://github.com/toggl/toggl_api_docs
