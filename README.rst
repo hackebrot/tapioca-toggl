@@ -1,11 +1,23 @@
 Tapioca-Toggl
 =============
 
-|gitter|
+|gitter| |pypi| |pyversions| |license|
 
 .. |gitter| image:: https://badges.gitter.im/Join%20Chat.svg
    :alt: Join the chat at https://gitter.im/hackebrot/tapioca-toggl
    :target: https://gitter.im/hackebrot/tapioca-toggl?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+
+.. |pypi| image:: https://img.shields.io/pypi/v/tapioca-toggl.svg
+   :target: https://pypi.python.org/pypi/tapioca-toggl
+   :alt: PyPI Package
+
+.. |pyversions| image:: https://img.shields.io/pypi/pyversions/tapioca-toggl.svg
+   :target: https://pypi.python.org/pypi/tapioca-toggl/
+   :alt: PyPI Python Versions
+
+.. |license| image:: https://img.shields.io/pypi/l/tapioca-toggl.svg
+   :target: https://pypi.python.org/pypi/tapioca-toggl
+   :alt: PyPI Package License
 
 Python wrapper for `Toggl API v8`_
 
