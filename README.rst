@@ -53,7 +53,7 @@ For a list of all of the available endpoints, please consult `resource_mapping.p
 You can find more information on Tapioca at the `Tapioca-Wrapper docs`_.
 
 .. _`resource_mapping.py`: https://github.com/hackebrot/tapioca-toggl/blob/master/tapioca_toggl/resource_mapping.py
-.. _`Tapioca-Wrapper docs`: http://tapioca-wrapper.readthedocs.org/en/latest/quickstart/
+.. _`Tapioca-Wrapper docs`: http://tapioca-wrapper.readthedocs.org/en/stable/quickstart.html
 
 
 Code of Conduct
