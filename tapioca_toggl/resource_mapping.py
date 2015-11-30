@@ -53,10 +53,6 @@ RESOURCE_MAPPING = {
         'resource': 'time_entries/current',
         'docs': 'https://github.com/toggl/toggl_api_docs/blob/master/chapters/time_entries.md'
     },
-    'current_time_entry': {
-        'resource': 'time_entries/current',
-        'docs': 'https://github.com/toggl/toggl_api_docs/blob/master/chapters/time_entries.md'
-    },
     'workspaces': {
         'resource': 'workspaces',
         'docs': 'https://github.com/toggl/toggl_api_docs/blob/master/chapters/workspaces.md'
@@ -73,8 +69,6 @@ RESOURCE_MAPPING = {
         'resource': 'workspaces/{workspace_id}/clients',
         'docs': 'https://github.com/toggl/toggl_api_docs/blob/master/chapters/workspaces.md'
     },
-    'workspace_clients': {
-        'resource': 'workspaces/{workspace_id}/clients',
         'docs': 'https://github.com/toggl/toggl_api_docs/blob/master/chapters/workspaces.md'
     },
     'workspace_tasks': {
