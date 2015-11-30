@@ -69,6 +69,8 @@ RESOURCE_MAPPING = {
         'resource': 'workspaces/{workspace_id}/clients',
         'docs': 'https://github.com/toggl/toggl_api_docs/blob/master/chapters/workspaces.md'
     },
+    'workspace_projects': {
+        'resource': 'workspaces/{workspace_id}/projects',
         'docs': 'https://github.com/toggl/toggl_api_docs/blob/master/chapters/workspaces.md'
     },
     'workspace_tasks': {
