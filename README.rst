@@ -47,9 +47,9 @@ Now you can simply send requests using the available endpoints as follows:
     me = api.me_with_related_data().get().data()
 
  
-Feel free to consult `example.py`_ for a working example that creates time entries on www.toggl.com.
+Feel free to consult `this example script`_ for a working example that creates time entries on www.toggl.com.
 
-.. _`example.py`: https://github.com/hackebrot/tapioca-toggl/blob/master/example.py
+.. _`this example script`: https://github.com/hackebrot/tapioca-toggl/blob/master/examples/foobar.py
 
 
 Documentation
