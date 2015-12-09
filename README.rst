@@ -34,7 +34,9 @@ Installation
 Usage
 -----
 
-Create a new API instance and send requests as follows:
+Create a new API instance using either ``access_token`` or ``user`` and ``password``.
+
+Now you can simply send requests using the available endpoints as follows:
 
 .. code-block:: python
 
@@ -42,8 +44,7 @@ Create a new API instance and send requests as follows:
 
     api = Toggl(access_token='{your-access-token}')
 
-    response = api.me_with_related_data().get()
-    me = response.data()
+    me = api.me_with_related_data().get().data()
 
 Documentation
 -------------
