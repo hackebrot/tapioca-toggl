@@ -17,7 +17,12 @@ api = tapioca_toggl.Toggl(access_token=config.get('Toggl', 'access_token'))
 
 
 def main():
-    pass
+    logger.debug('Retrieving user data')
+    me = api.me_with_related_data().get()
+
+    toggl_tz = me.data.timezone().data
+    logger.debug('Timezone set to "{}"'.format(toggl_tz))
+
 
 if __name__ == '__main__':
     main()
